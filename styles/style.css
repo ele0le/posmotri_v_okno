@@ -19,7 +19,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  padding: 133px 30px;
 }
 
 h1,
@@ -102,13 +102,13 @@ ol {
 .result {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: ;
   row-gap: 16px;
 }
 
 .result__video-container {
   display: flex;
-  width: 711px;
+  min-width: 711px;
   height: 386px;
   position: relative;
 }
@@ -219,7 +219,7 @@ ol {
   align-items: center;
   flex-shrink: 0;
   gap: 10px;
-  height: 34px;
+  min-height: 34px;
   color: #fff;
   text-align: center;
   font-family: 'Fira Sans Condensed', sans-serif;
